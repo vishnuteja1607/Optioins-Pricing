@@ -7,4 +7,7 @@ First we define what is an option and list it's characteristics. An example is a
 Later we introduce GBM, which consists of a drift term and a volatility term(Wierner process). The expected return and volatility of the 
 stock prices is constant in this model. 
 
+The call price is compared with the Black-Scholes model price.
+Finally we also show a function to calculate the implied volatility. It uses an iterative root finding algorithm.
+
 
